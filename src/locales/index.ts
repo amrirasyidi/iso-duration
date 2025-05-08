@@ -15,6 +15,7 @@ import gr from "./gr";
 import he from "./he";
 import hr from "./hr";
 import hu from "./hu";
+import id from "./id";
 import is from "./is";
 import it from "./it";
 import ja from "./ja";
@@ -56,6 +57,7 @@ export {
   he,
   hr,
   hu,
+  id,
   is,
   it,
   ja,
