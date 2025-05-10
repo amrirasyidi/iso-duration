@@ -2,14 +2,14 @@
 import { LangConfig } from "./types";
 
 const lang: LangConfig = {
-    years(c) { return "tahun"; },
-    months(c) { return "bulan"; },
-    weeks(c) { return "minggu"; },
-    days(c) { return "hari"; },
-    hours(c) { return "jam"; },
-    minutes(c) { return "menit"; },
-    seconds(c) { return "detik"; },
-    decimal: ",",
+    years() { return "tahun"; },
+    months() { return "bulan"; },
+    weeks() { return "minggu"; },
+    days() { return "hari"; },
+    hours() { return "jam"; },
+    minutes() { return "menit"; },
+    seconds() { return "detik"; },
+    decimal: ","
 };
 
 export default lang;
